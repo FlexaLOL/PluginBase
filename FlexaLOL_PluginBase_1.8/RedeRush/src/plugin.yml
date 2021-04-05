@@ -1,0 +1,11 @@
+name: PluginBase
+main: flexalol.dev.MainCore
+version: b1
+description: Um plugin base, feito por FlexaLOL
+author: [FlexaLOL]
+commands:
+  seucomando:
+    description: O comando principal
+    usage: /seucomando
+    permission: flexalol.principal
+    permission-message: Você não tem permissão para utilizar isso.
